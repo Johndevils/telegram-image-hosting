@@ -3,9 +3,9 @@ import { Github, Mail, Send } from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
-  const githubUrl = "https://github.com/tas33n/telegram-image-hosting";
-  const telegramHandle = "@lamb3rt";
-  const email = "farhanisteak84@gmail.com";
+  const githubUrl = "https://github.com/johndevils/telegram-image-hosting";
+  const telegramHandle = "@codexhelps_bot";
+  const email = "infinite.techify@hotmail.com";
 
   return (
     <footer className="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700 py-8 text-center text-sm text-gray-500 dark:text-gray-400 transition-colors duration-200">
@@ -26,7 +26,7 @@ export function Footer() {
         </div>
         <div className="space-y-2 text-xs">
           <p>Powered by Cloudflare & Telegram.</p>
-          <p>Developed by <a href={githubUrl} className="font-medium hover:text-gray-700 dark:hover:text-gray-300 transition-colors duration-200">Tas33n</a></p>
+          <p>Developed by <a href={githubUrl} className="font-medium hover:text-gray-700 dark:hover:text-gray-300 transition-colors duration-200">Arsynox</a></p>
           <div className="flex items-center justify-center gap-4 pt-2">
             <a href={`mailto:${email}`} className="flex items-center gap-1 hover:text-gray-700 dark:hover:text-gray-300 transition-colors duration-200">
               <Mail className="w-3 h-3" />
