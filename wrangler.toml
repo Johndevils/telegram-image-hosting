@@ -5,7 +5,7 @@ pages_build_output_dir = "dist"
 [[kv_namespaces]]
 binding = "img_data"
 id = "09c197e42c8b4346a200c8902334ea6b"
-preview_id = "69088be9ba19400983d1b14e3e74ecf5"
+preview_id = "09c197e42c8b4346a200c8902334ea6b"
 
 [env.production]
 vars = { NODE_ENV = "production" }
