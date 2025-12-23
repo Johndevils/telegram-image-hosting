@@ -12,7 +12,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-4">
           <div className="flex items-center justify-center gap-2">
-            <span>&copy; {currentYear} Tas33n. All rights reserved.</span>
+            <span>&copy; {currentYear} Arsynox. All rights reserved.</span>
             <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center">
               <Send className="w-4 h-4 text-white" />
             </div>
